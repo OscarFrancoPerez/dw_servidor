@@ -1,6 +1,6 @@
---source /ruta/archivo.sql Ejecutar archivo
+ï»¿--source /ruta/archivo.sql Ejecutar archivo
 
-INSERT INTO tUsuarios(id, nombre, apellidos, email, contraseña)
+INSERT INTO tUsuarios(id, nombre, apellidos, email, contraseÃ±a)
 VALUES 
 	(1, "Alex", "Turner", "alexturner1@mail189.uk", "1234"),
 	(2, "Carlos", "Turner", "carlosturner1@mail189.uk", "1234"),
@@ -8,7 +8,7 @@ VALUES
 	(4, "Juan", "Turner", "Juanturner1@mail189.uk", "1234"),
 	(5, "Yago", "Turner", "yagoturner1@mail189.uk", "1234"),
 
-INSERT INTO tJuegos(id, nombre, url_imagen, desarrolladora, publicación) 
+INSERT INTO tJuegos(id, nombre, url_imagen, desarrolladora, publicaciÃ³n) 
 VALUES 
 	(1, "Fallout: New Vegas", "https://static.wikia.nocookie.net/fallout/images/f/ff/FNV_box_art_%28US%29.jpg", "Bethesda", STR_TO_DATE('19-Octubre-2010', '%d-%M-%Y')),
 	(2, "Diablo III", "https://static.wikia.nocookie.net/diablo/images/1/12/DiabloIIIcover.jpg/revision/latest/scale-to-width-down/220?cb=20120507084548&path-prefix=es", "Blizzard", STR_TO_DATE('15-Mayo-2012', '%d-%M-%Y')),
