@@ -19,7 +19,7 @@ VALUES
 INSERT INTO tComentarios(id, comentario, juego_id, usuario_id) 
 VALUES 
 	(1, "Este juego me gusta", 1, 1),
-	(2, "Este juego me gusta", 1, 1),
-	(3, "Este juego me gusta", 1, 1),
-	(4, "Este juego me gusta", 1, 1),
-	(5, "Este juego me gusta", 1, 1);
+	(2, "Este juego me gusta", 2, 2),
+	(3, "Este juego me gusta", 3, 3),
+	(4, "Este juego me gusta", 4, 4),
+	(5, "Este juego me gusta", 5, 5);
