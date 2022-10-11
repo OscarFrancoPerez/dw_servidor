@@ -9,13 +9,14 @@ $result = mysqli_query($db, $query) or die('Query error');
 echo '<table>';
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
-    echo '<td>';
-            echo $row['nombre'];
-    echo '</td>';
-    echo '<td>';
-            echo '<img src=" '.$row[2].'"  width="80" height="120">';
-    echo '</td>';
-  echo '<br>';
+  echo '<tr>';  
+        echo '<td>';
+                echo $row['nombre'];
+        echo '</td>';
+        echo '<td>';
+                echo '<img src=" '.$row[2].'"  width="80" height="120">';
+        echo '</td>';
+  echo '</tr>';
 }
 echo '</table>';
 mysqli_close($db);
