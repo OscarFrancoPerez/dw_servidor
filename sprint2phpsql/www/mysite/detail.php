@@ -2,7 +2,7 @@
 $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 ?>
 <html>
-<body>
+<body style="text-align: center;">
 <?php
 if (!isset($_GET['id'])) {
 die('No se ha especificado un juego');
