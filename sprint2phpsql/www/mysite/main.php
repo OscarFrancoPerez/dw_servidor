@@ -6,9 +6,10 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 // Lanzar una query
 $query = 'SELECT * FROM tJuegos';
 $result = mysqli_query($db, $query) or die('Query error');
+echo '<table>';
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
-  echo '<table>';
+  
     echo '<td>';
       echo $row['nombre'];
     echo '</td>';
@@ -17,5 +18,6 @@ while ($row = mysqli_fetch_array($result)) {
     echo '</td>';
   echo '<br>';
 }
+echo '</table>';
 mysqli_close($db);
 ?>
