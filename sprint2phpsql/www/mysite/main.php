@@ -7,7 +7,7 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 // Lanzar una query
 $query = 'SELECT * FROM tJuegos';
 $result = mysqli_query($db, $query) or die('Query error');
-echo '<table>';
+echo '<table style="text-align: center;">';
 echo '<td colspan="3" style="background-color: #7677E8;">Good Games</td>';
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
