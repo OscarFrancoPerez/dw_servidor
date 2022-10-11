@@ -11,7 +11,7 @@ echo '<table>';
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
   echo '<tr>';  
-          echo '<td style="background-color: #7677E8">';
+          echo '<td style="background-color: #7677E8" width="80" >';
                 echo $row['id'];
         echo '</td>';
         echo '<td>';
