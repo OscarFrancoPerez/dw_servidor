@@ -10,10 +10,14 @@ echo '<table>';
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
     echo '<tr>';
-      echo $row['nombre'];
+        echo '<td>';
+            echo $row['nombre'];
+        echo '</td>';
     echo '</tr>';
     echo '<tr>';
-      echo '<img src=" '.$row[2].'"  width="80" height="120">';
+        echo '<td>';
+            echo '<img src=" '.$row[2].'"  width="80" height="120">';
+        echo '</td>';
     echo '</tr>';
   echo '<br>';
 }
