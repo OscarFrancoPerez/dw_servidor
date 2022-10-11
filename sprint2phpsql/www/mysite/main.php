@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/main.css" />
+<link rel="stylesheet" href="/main.css"/>
 <?php
 $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 ?>
@@ -16,7 +16,7 @@ while ($row = mysqli_fetch_array($result)) {
                 echo $row['id'];
         echo '</td>';
         echo '<td>';
-                echo $row['nombre'];
+                echo'<a href="/detail.php">'.$row['nombre'].'</a>';
         echo '</td>';
         echo '<td>';
                 echo '<img src=" '.$row[2].'"  width="80" height="120">';
