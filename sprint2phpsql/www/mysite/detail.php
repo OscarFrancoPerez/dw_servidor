@@ -7,7 +7,7 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 if (!isset($_GET['juego_id'])) {
 die('No se ha especificado un juego');
 }
-$cancion_id = $_GET['juego_id'];
+$juego_id = $_GET['juego_id'];
 $query = 'SELECT * FROM tJuegos WHERE id='.$juego_id;
 $result = mysqli_query($db, $query) or die('Query error');
 $only_row = mysqli_fetch_array($result);
