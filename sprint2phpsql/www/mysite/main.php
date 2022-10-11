@@ -8,9 +8,13 @@ $query = 'SELECT * FROM tJuegos';
 $result = mysqli_query($db, $query) or die('Query error');
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
-  echo $row['nombre'];
-  echo '<br>';
-  echo $row[2];
+  echo '<table>';
+    echo '<td>';
+      echo $row['nombre'];
+    echo '</td>';
+    echo '<td>';
+      echo '<img src=" '.$row[2].'" >';
+    echo '</td>';
   echo '<br>';
 }
 mysqli_close($db);
