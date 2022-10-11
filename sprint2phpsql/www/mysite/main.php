@@ -8,7 +8,7 @@ $query = 'SELECT * FROM tJuegos';
 $result = mysqli_query($db, $query) or die('Query error');
 // Recorrer el resultado
 while ($row = mysqli_fetch_array($result)) {
-  echo $row['titulo'];
+  echo $row['nombre'];
   echo '<br>';
   echo $row[2];
   echo '<br>';
