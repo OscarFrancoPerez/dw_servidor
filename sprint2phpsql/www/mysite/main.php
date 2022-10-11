@@ -13,7 +13,7 @@ while ($row = mysqli_fetch_array($result)) {
       echo $row['nombre'];
     echo '</td>';
     echo '<td>';
-      echo '<img src=" '.$row[2].'" >';
+      echo '<img src=" '.$row[2].'"  width="80" height="120">';
     echo '</td>';
   echo '<br>';
 }
