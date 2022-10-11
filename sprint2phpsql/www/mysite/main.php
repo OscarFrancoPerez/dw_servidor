@@ -13,7 +13,7 @@ echo '<td colspan="3" style="background-color: #7677E8;">Good Games</td>';
 while ($row = mysqli_fetch_array($result)) {
   echo '<tr>';  
           echo '<td style="background-color: #7677E8" width="80" >';
-                echo $row['juego_id'];
+                echo $row['id'];
         echo '</td>';
         echo '<td>';
                 echo'<a href="/detail.php?id='.$row['id'].'">'.$row['nombre'].'</a>';
