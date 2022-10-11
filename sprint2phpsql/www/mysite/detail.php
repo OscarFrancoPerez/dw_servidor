@@ -5,7 +5,7 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 <body>
 <?php
 if (!isset($_GET['juego_id'])) {
-die('No se ha especificado una canción');
+die('No se ha especificado un juego');
 }
 $cancion_id = $_GET['juego_id'];
 $query = 'SELECT * FROM tJuegos WHERE id='.$juego_id;
