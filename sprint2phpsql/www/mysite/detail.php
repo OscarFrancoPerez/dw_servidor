@@ -4,10 +4,10 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 <html>
 <body>
 <?php
-if (!isset($_GET['juego_id'])) {
+if (!isset($_GET['id'])) {
 die('No se ha especificado un juego');
 }
-$juego_id = $_GET['juego_id'];
+$juego_id = $_GET['id'];
 $query = 'SELECT * FROM tJuegos WHERE id='.$juego_id;
 $result = mysqli_query($db, $query) or die('Query error');
 $only_row = mysqli_fetch_array($result);
