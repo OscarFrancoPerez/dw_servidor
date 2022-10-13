@@ -4,7 +4,7 @@ $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
 <html>
 <body>
 <?php
-$cancion_id = $_POST['juego_id'];
+$juego_id = $_POST['juego_id'];
 $comentario = $_POST['comentario'];
 $query = "INSERT INTO tComentarios(comentario, juego_id, usuario_id)
 VALUES ('".$comentario."',".$juego_id.",NULL)";
