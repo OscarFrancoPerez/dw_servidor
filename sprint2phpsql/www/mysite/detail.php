@@ -1,7 +1,10 @@
-<?php
-$db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
-?>
 <html>
+  <head>
+  <link rel="stylesheet" href="/css/detail.css"/>
+  <?php
+    $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
+  ?>
+  </head>
 <body style="text-align: center;">
 <?php
 if (!isset($_GET['id'])) {
