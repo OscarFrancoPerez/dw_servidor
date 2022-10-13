@@ -29,7 +29,7 @@
         echo '</tr>';
       echo '</table>';
     ?>
-    <h3 style="color = white;">Comentarios:</h3>
+    <h3 style="color: white;">Comentarios:</h3>
     <ul>
       <?php
         $query2 = 'SELECT * FROM tComentarios WHERE juego_id='.$juego_id;
