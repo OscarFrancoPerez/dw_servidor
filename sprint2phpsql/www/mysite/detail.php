@@ -5,7 +5,7 @@
     $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
   ?>
   </head>
-  <body style="text-align: center;">
+  <body>
     <?php
       if (!isset($_GET['id'])) {
         die('No se ha especificado un juego');
@@ -29,7 +29,7 @@
         echo '</tr>';
       echo '</table>';
     ?>
-    <h3>Comentarios:</h3>
+    <h3 style="color = white;">Comentarios:</h3>
     <ul>
       <?php
         $query2 = 'SELECT * FROM tComentarios WHERE juego_id='.$juego_id;
