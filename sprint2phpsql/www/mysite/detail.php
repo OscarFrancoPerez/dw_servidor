@@ -42,19 +42,11 @@
         }
       ?>
       </ul>
-      <form method="post">
+      <form action="/comment.php" method="post">
         <label>Deja tu comentario</label>
         <textarea rows="5" cols="80" name="comentario"></textarea>
         <input type="hidden" name="juego_id" value="<?php echo $juego_id; ?>">
         <input type="submit" value="Enviar comentario"/>
       </form>
-      <?php
-        $juego_id = $_POST['juego_id'];
-        $comentario = $_POST['comentario'];
-        $query = "INSERT INTO tComentarios(comentario, juego_id, usuario_id)
-        VALUES ('".$comentario."',".$juego_id.",NULL)";
-        mysqli_query($db, $query) or die('Error');
-        mysqli_close($db);
-       ?>
   </aside>
 </html>
