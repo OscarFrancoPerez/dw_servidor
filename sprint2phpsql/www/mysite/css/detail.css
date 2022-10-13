@@ -1,3 +1,8 @@
 html{
 	background-color: grey;
 }
+table,th,td,tr {
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+}
