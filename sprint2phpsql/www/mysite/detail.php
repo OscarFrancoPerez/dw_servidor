@@ -13,17 +13,16 @@ $result = mysqli_query($db, $query) or die('Query error');
 $only_row = mysqli_fetch_array($result);
 echo '<table style="text-align: center;">';
   echo '<td colspan="3" style="background-color: #7677E8;">'.$only_row['nombre'].'</td>';
-    echo <tr>;
+    echo '<tr>';
       echo '<td style="background-color: #7677E8" width="80" >';
       echo '<img src="'.$only_row['url_imagen'].'">';
       echo '</td>';
-    echo </tr>;
-    echo <tr>;
+    echo '</tr>';
+    echo '<tr>';
       echo '<td>';
         echo '<h2>'.$only_row['publicación'].'</h2>';
       echo '</td>';
-    echo </tr>;
-  
+    echo '</tr>';
 echo '</table>';
 ?>
 <h3>Comentarios:</h3>
