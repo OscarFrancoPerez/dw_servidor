@@ -1,6 +1,10 @@
 html{
 	background-color: grey;
 }
+table{
+	margin: auto;
+	background-color: white;
+}
 table,th,td,tr {
 	border: 1px solid black;
 	border-radius: 5px;
