@@ -15,7 +15,7 @@ echo '<table style="text-align: center;">';
   echo '<td colspan="3" style="background-color: #7677E8;">'.$only_row['nombre'].'</td>';
     echo '<tr>';
       echo '<td style="background-color: #7677E8" width="80" >';
-      echo '<img src="'.$only_row['url_imagen'].'">';
+      echo '<img src="'.$only_row['url_imagen'].'" width="80" height="120">';
       echo '</td>';
     echo '</tr>';
     echo '<tr>';
