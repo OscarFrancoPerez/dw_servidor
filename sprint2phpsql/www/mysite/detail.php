@@ -43,5 +43,10 @@
         mysqli_close($db);
       ?>
       </ul>
+      <form>
+        <label>Deja tu comentario</label>
+        <input name="comentario" type="text">
+        <input type="submit" value="Enviar comentario"/>
+      </form>
   </aside>
 </html>
