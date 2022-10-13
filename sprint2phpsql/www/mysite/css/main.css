@@ -1,3 +1,6 @@
+body{
+	background-color: grey;
+}
 table {
 	width: 75%;
 	margin: auto;
@@ -8,3 +11,4 @@ table,th,td,tr {
 	border-radius: 5px;
 	text-align: center;
 }
+
