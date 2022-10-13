@@ -30,8 +30,8 @@
       echo '</table>';
     ?>
   </body> 
-  <aside>
-    <h3 style="color: white; background_color: #7677E8;">Comentarios:</h3>
+  <aside style="background-color: white">
+    <h3 style="color: white; background-color: #7677E8;">Comentarios:</h3>
     <hr>
       <ul>
       <?php
