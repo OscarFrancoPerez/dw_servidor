@@ -29,20 +29,19 @@
         echo '</tr>';
       echo '</table>';
     ?>
-</body>
-    <aside>
-      <h3 style="color: white;">Comentarios:</h3>
-      <hr>
-    
+  </body> 
+  <aside>
+    <h3 style="color: white; background_color: #7677E8;">Comentarios:</h3>
+    <hr>
       <ul>
-        <?php
-          $query2 = 'SELECT * FROM tComentarios WHERE juego_id='.$juego_id;
-          $result2 = mysqli_query($db, $query2) or die('Query error');
-          while ($row = mysqli_fetch_array($result2)) {
+      <?php
+        $query2 = 'SELECT * FROM tComentarios WHERE juego_id='.$juego_id;
+        $result2 = mysqli_query($db, $query2) or die('Query error');
+        while ($row = mysqli_fetch_array($result2)) {
           echo '<li>'.$row['comentario'].'</li>';
-          }
-          mysqli_close($db);
-        ?>
+        }
+        mysqli_close($db);
+      ?>
       </ul>
-    </aside>
+  </aside>
 </html>
