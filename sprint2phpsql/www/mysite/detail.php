@@ -12,7 +12,7 @@ $query = 'SELECT * FROM tJuegos WHERE id='.$juego_id;
 $result = mysqli_query($db, $query) or die('Query error');
 $only_row = mysqli_fetch_array($result);
 echo '<h1>'.$only_row['nombre'].'</h1>';
-echo '<img src="'.$only_row['url_imagen'].'">'
+echo '<img src="'.$only_row['url_imagen'].'">';
 echo '<h2>'.$only_row['publicación'].'</h2>';
 ?>
 <h3>Comentarios:</h3>
