@@ -1,5 +1,4 @@
-﻿from math import trunc
-from pickle import TRUE
+from math import trunc
 from random import uniform
 
 
