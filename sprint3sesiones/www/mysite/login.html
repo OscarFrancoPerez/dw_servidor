@@ -5,7 +5,8 @@
   
   <body>
     <h1>Login</h1>
-    <form name="login_form" id="login_form" action="login.php" method="post">
+    
+    <form id="login_form" action="login.php" method="post">
       <input name="f_email" type="text" placeholder="e-mail"><br>
       <input name="f_password" type="password" placeholder="Contraseña"><br>
       <input type="submit" value="Iniciar sesión">
@@ -22,8 +23,8 @@
           return;
         }
         if (this.querySelector('[name='f_password']').value.length < 1){
-              alert("Tiene que escribir su contraseña");
-              return;
+          alert("Tiene que escribir su contraseña");
+          return;
         }
         this.submit();
       }
