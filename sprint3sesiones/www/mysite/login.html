@@ -1,6 +1,15 @@
 <html>
   <head>
     <meta charset="UTF-8">
+  </head>
+  
+  <body>
+    <h1>Login</h1>
+    <form name="login_form" id="login_form" action="login.php" method="post">
+      <input name="f_email" type="text" placeholder="e-mail"><br>
+      <input name="f_password" type="password" placeholder="Contraseña"><br>
+      <input type="submit" value="Iniciar sesión">
+    </form>
     <script>
       document.addEventListener("DOMContentLoaded", 
         function(event){document.getElementById('login_form').addEventListener('submit',valid_form});
@@ -21,14 +30,5 @@
         this.submit();
       }
     </script>
-  </head>
-  
-  <body>
-    <h1>Login</h1>
-    <form name="login_form" id="login_form" action="login.php" method="post">
-      <input name="f_email" type="text" placeholder="e-mail"><br>
-      <input name="f_password" type="password" placeholder="Contraseña"><br>
-      <input type="submit" value="Iniciar sesión">
-    </form>
   </body>
 </html>
