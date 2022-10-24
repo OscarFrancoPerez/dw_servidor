@@ -19,12 +19,10 @@
         e.preventDefault();
         if (this.querySelector('[name='f_email']').value==''){
           alert("Tiene que escribir su correo");
-          document.login_form.f_email.focus();
           return;
         }
         if (this.querySelector('[name='f_password']').value.length < 1){
               alert("Tiene que escribir su contraseña");
-              document.login_form.f_password.focus();
               return;
         }
         this.submit();
