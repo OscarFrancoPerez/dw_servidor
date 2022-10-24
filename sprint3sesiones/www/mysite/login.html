@@ -1,8 +1,31 @@
 <html>
-  <head><meta charset="UTF-8"></head>
+  <head>
+    <meta charset="UTF-8">
+    <script>
+      document.addEventListener("DOMContentLoaded", 
+        function(event){document.getElementById('login_form').addEventListener('submit',valid_form});
+
+      function valid_form(e){
+        //valido el nombre
+        e.preventDefault();
+        if (this.querySelector('[name=f_email]'.value=''){
+          alert("Tiene que escribir su correo");
+          document.login_form.f_email.focus()
+          return;
+        }
+        if (this.querySelector('[name=f_password]'.value.length < 1){
+              alert("Tiene que escribir su contraseña")
+              document.login_form.f_password.focus()
+              return;
+        }
+        this.submit();
+      }
+    </script>
+  </head>
+  
   <body>
     <h1>Login</h1>
-    <form action="login.php" method="post">
+    <form name="login_form" id="login_form" action="login.php" method="post">
       <input name="f_email" type="text" placeholder="e-mail"><br>
       <input name="f_password" type="password" placeholder="Contraseña"><br>
       <input type="submit" value="Iniciar sesión">
