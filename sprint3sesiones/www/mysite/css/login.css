@@ -12,3 +12,10 @@ div{
 	border-color: lightgreen;
 	border-radius: 5px;
 }
+
+form input {
+	height: 15%;
+	width: 60%;
+	display: block;
+	margin: auto;
+}
