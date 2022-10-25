@@ -11,8 +11,7 @@ table,th,td,tr {
 	border-radius: 5px;
 	text-align: center;
 }
-
-table tr td:hover{
+tr:hover{
 	color: white;
 	background-color: black;
 }
