@@ -10,6 +10,10 @@ table,th,td,tr {
 	border-radius: 5px;
 	text-align: center;
 }
+form label{
+	display: block;
+	margin: auto;
+}
 
 form input{
 	display: block;
@@ -21,3 +25,5 @@ form textarea{
 	width: 620;
 	height: 120;
 }	
+
+
