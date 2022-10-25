@@ -11,12 +11,12 @@ table,th,td,tr {
 	border-radius: 5px;
 	text-align: center;
 }
-tr:hover{
+tr:hover a{
 	color: white;
 	background-color: black;
+
+	
 }
 
-tr a:hover {
-	color: white;
-}
+
 
