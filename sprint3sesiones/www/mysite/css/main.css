@@ -13,7 +13,7 @@ table,th,td,tr {
 }
 tr:hover {
 	color: white;
-	background-color: black;
+	background-color: grey;
 
 	
 }
