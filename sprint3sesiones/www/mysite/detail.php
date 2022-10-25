@@ -35,10 +35,11 @@
     <hr>
       <ul>
       <?php
-        $query2 = 'SELECT tComentarios.comentario, tComentarios.fecha, tUsuarios.nombre FROM tComentarios, tUSuarios WHERE tComentarios.usuario_id=tUsuarios.id AND tComentarios.juego_id='.$juego_id;
+        $query2 = 'SELECT tComentarios.comentario, tComentarios.fecha, tUsuarios.nombre 
+        FROM tComentarios, tUSuarios WHERE tComentarios.usuario_id=tUsuarios.id AND tComentarios.juego_id='.$juego_id;
         $result2 = mysqli_query($db, $query2) or die('Query error');
         while ($row = mysqli_fetch_array($result2)) {
-          echo '<li>Posted by: '.$row['nombre'].' at '.$row['fecha'].' : '.$row['comentario'].'</li>';
+          echo '<li>Posted by: '.$row[2].' at '.$row[1].' : '.$row[0].'</li>';
         }
       ?>
       </ul>
