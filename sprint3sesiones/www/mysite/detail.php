@@ -43,8 +43,8 @@
       ?>
       </ul>
       <form action="/comment.php" method="post">
-        <label>Deja tu comentario</label>
-        <textarea rows="5" cols="80" name="comentario"></textarea>
+        <label>Deja tu comentario</label><br>
+        <textarea rows="5" cols="80" name="comentario"></textarea><br>
         <input type="hidden" name="juego_id" value="<?php echo $juego_id; ?>">
         <input type="hidden" name="fecha" value="<?php echo $fecha; ?>">
         <input type="submit" value="Enviar comentario"/>
