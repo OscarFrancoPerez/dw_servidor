@@ -1,0 +1,12 @@
+html {
+	background-color: grey;
+}
+h1{
+	text-align: center;
+}
+div{
+	margin: auto;
+	background-color: lightslategrey;
+	border-color: lightgreen;
+	border-radius: 5px;
+}
