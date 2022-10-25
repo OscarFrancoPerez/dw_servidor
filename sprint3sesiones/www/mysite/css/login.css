@@ -12,6 +12,12 @@ form input[type=text] {
 	height: 15%;
 	width: 60%;
 }
+form input[type=password] {
+	display: block;
+	margin: auto;
+	height: 15%;
+	width: 60%;
+}
 
 div{
 	margin: auto;
