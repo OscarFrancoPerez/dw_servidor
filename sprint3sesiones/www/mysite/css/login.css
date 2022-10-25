@@ -6,6 +6,8 @@ h1{
 }
 div{
 	margin: auto;
+	width: 35%;
+	height: 35%;
 	background-color: lightslategrey;
 	border-color: lightgreen;
 	border-radius: 5px;
