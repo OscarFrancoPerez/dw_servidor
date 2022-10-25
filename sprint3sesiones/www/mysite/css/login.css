@@ -20,6 +20,7 @@ form input[type=password] {
 }
 
 div{
+	padding: 20%;
 	margin: auto;
 	width: 35%;
 	height: 35%;
