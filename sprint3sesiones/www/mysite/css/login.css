@@ -10,11 +10,12 @@ div{
 	width: 35%;
 	height: 35%;
 	background-color: lightslategrey;
+	border:2px;
 	border-color: lightgreen;
 	border-radius: 5px;
 }
 
-form input {
+form input[type=text] {
 	display: block;
 	margin: auto;
 	height: 15%;
