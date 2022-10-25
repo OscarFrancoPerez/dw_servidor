@@ -5,6 +5,14 @@ h1{
 	text-align: center;
 	color: dodgerblue;
 }
+
+form input[type=text] {
+	display: block;
+	margin: auto;
+	height: 15%;
+	width: 60%;
+}
+
 div{
 	margin: auto;
 	width: 35%;
@@ -15,9 +23,3 @@ div{
 	border-radius: 5px;
 }
 
-form input[type=text] {
-	display: block;
-	margin: auto;
-	height: 15%;
-	width: 60%;		
-}
