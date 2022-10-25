@@ -4,6 +4,11 @@
     <link rel="stylesheet" href="/css/main.css"/>
   </head>
   <body>
+    <aside>
+      <div>
+        
+      </div>
+    </aside>
     <?php
       $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
     ?>

@@ -1,6 +1,13 @@
 html{
 	background-color: grey;
 }
+aside{
+	border: 1px solid black;
+	margin-right: 75%;
+	background-color: white;
+	height: auto;
+}
+
 table {
 	width: 75%;
 	margin: auto;
@@ -15,6 +22,3 @@ tr:hover {
 	color: white;
 	background-color: lightgoldenrodyellow;	
 }
-
-
-
