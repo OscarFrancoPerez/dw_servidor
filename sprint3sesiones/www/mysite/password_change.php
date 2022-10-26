@@ -3,8 +3,8 @@
 
     session_start();
     $user = 'NULL';
-    if (!empty($_SESSION['usuario_id'])) {
-        $user = $_SESSION['usuario_id'];
+    if (!empty($_SESSION['user_id'])) {
+        $user = $_SESSION['user_id'];
     }
     $old_password_post = $_POST['old_password'];
     $new_password_post = $_POST['new_password'];
