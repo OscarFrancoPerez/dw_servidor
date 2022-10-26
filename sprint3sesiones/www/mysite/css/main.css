@@ -2,6 +2,7 @@ html{
 	background-color: grey;
 }
 aside{
+	float: left;
 	border: 1px solid black;
 	margin-right: 75%;
 	background-color: white;
@@ -10,7 +11,7 @@ aside{
 
 div{
 	height: 80%;
-	width: 18%;
+	width: 20%;
 }
 
 table {
