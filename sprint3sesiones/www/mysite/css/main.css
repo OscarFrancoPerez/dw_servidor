@@ -13,10 +13,11 @@ aside{
 }
 
 #table{
+	margin-top:  -6%;
+	float: right;
 	width: 70%;
 }
 table {
-	width: 75%;
 	margin-left: 25%;
 	background-color: white;
 }
