@@ -6,7 +6,8 @@
   <body>
     <aside>
       <div>
-        
+        <button>Login</button>
+        <button>Logout</button>
       </div>
     </aside>
     <?php
