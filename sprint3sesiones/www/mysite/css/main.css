@@ -16,10 +16,10 @@ aside{
 #table{
 	float: right;
 	width: 75%;
+	margin-left: 25%;
 }
 table {
-	width: auto;
-	margin-left: 25%;
+	width:75%;
 	background-color: white;
 }
 table,th,td,tr {
