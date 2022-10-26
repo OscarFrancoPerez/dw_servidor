@@ -6,13 +6,14 @@
 </head>
 
 <body>
-  <aside>
-    <div>
+  <div id="aside">
+    <aside>
       <button>Login</button>
       <button>Logout</button>
-    </div>
-  </aside>
-  <div width="70%">
+    </aside>
+  </div>
+
+  <div>
     <?php
     $db = mysqli_connect('localhost', 'root', '1234', 'mysitedb') or die('Fail');
     ?>
