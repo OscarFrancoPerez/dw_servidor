@@ -8,9 +8,9 @@
 <body>
   <div id="aside">
     <aside>
-      <button><a href="./login.html">Login</a></button>
+      <button><a href="login.html">Login</a></button>
       <br>
-      <button>Logout</button>
+      <button><a href="logout.php">Logout</a></button>
     </aside>
   </div>
 
