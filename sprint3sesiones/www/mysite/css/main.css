@@ -8,6 +8,7 @@ aside{
 }
 
 #aside{
+	float: left;
 	height: 80%;
 	width: 20%;
 }
