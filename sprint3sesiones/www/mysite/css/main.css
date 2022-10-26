@@ -15,9 +15,10 @@ aside{
 #table{
 	margin-top:  -6%;
 	float: right;
-	width: 70%;
+	width: 75%;
 }
 table {
+	width: auto;
 	margin-left: 25%;
 	background-color: white;
 }
