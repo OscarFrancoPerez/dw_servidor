@@ -6,7 +6,6 @@ aside{
 	border: 1px solid black;
 	margin-right: 75%;
 	background-color: white;
-
 }
 
 div{
@@ -15,6 +14,7 @@ div{
 }
 
 table {
+	display: block;
 	float: right;
 	width: 75%;
 	margin-left: 25%;
