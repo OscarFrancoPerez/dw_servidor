@@ -2,7 +2,6 @@ html{
 	background-color: grey;
 }
 aside{
-	float: left;
 	border: 1px solid black;
 	margin-right: 75%;
 	background-color: white;
@@ -14,8 +13,6 @@ div{
 }
 
 table {
-	display: block;
-	float: right;
 	width: 75%;
 	margin-left: 25%;
 	background-color: white;
