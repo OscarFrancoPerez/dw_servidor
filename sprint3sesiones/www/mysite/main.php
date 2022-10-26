@@ -8,7 +8,8 @@
 <body>
   <div id="aside">
     <aside>
-      <button>Login</button>
+      <button><a href="./login.html"></a></button>
+      <br>
       <button>Logout</button>
     </aside>
   </div>
