@@ -14,7 +14,7 @@
     if (mysqli_num_rows($result)>0){
         $only_row = mysqli_fetch_array($result);
         if ($only_row[1] == $old_password_post){
-            $query2 = "UPDATE  tUsuarios SET contrase¤a = '".$new_password_post."' WHERE id ='".$user."'; ";
+            $query2 = "UPDATE  tUsuarios SET contrase¤a ='".$new_password_post."' WHERE id ='".$user."'";
             $result = mysqli_query($db, $query2) or die('Query2 error');
             header('Location: main.php');
         } else{
