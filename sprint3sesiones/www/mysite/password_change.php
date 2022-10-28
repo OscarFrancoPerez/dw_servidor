@@ -9,7 +9,7 @@
     $old_password_post = $_POST['old_password'];
     $new_password_post = $_POST['new_password'];
 
-    $query = "SELECT contrase¤a FROM tUsuarios where id = '".$user."'";
+    $query = "SELECT contrase¤a FROM tUsuarios WHERE id=" . $user;
     $result = mysqli_query($db, $query) or die('Query error');
     if (mysqli_num_rows($result)>0){
         $only_row = mysqli_fetch_array($result);
